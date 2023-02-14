@@ -1,0 +1,53 @@
+<head>
+    <title>Proyecto 03 - Formulario</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <div id="Encabezado">
+
+        <h1>TripleHash SAC</h1>
+        <p>Soluciones informáticas</p>
+
+    </div>
+    
+    <div id="formularioContacto">
+        <h1>Contactanos</h1>
+        <form action="registrocontacto.html" method="post" target="_self">
+            <!-- CAMPOS DE TEXTO -->
+            <label for="name">Nombre completo</label>
+            <input id="name" name="name" type="text" placeholder="Escribe aquí tu nombre" maxlength="10">
+            <p></p>
+            <label for="email">Correo electronico</label>
+            <input id="email" name="email" type="text" value="@">
+            <p></p>
+            <label for="sucjet">Asunto</label>
+            <input id="sucjet" name="sucjet" type="text">
+    
+            <!-- CAMPOS DE OPCIONES -->
+            <h3>Tipo de consulta</h3>
+            <label for="typeConsult01">Asistencia técnica</label>
+            <input id="typeConsult01" name="typeConsult" type="radio" checked>
+            <p></p>
+            <label for="typeConsult02">Asesoría Informática</label>
+            <input id="typeConsult02" name="typeConsult" type="radio">
+    
+            <h3>Tipo de persona</h3>
+            <label for="typePerson01">Natural</label>
+            <input id="typePerson01" name="typePerson" type="radio" checked>
+            <p></p>
+            <label for="typeConsult02">Juridica</label>
+            <input id="typePerson02" name="typePerson" type="radio">
+    
+            <!-- CAMPO BOTONES -->
+    
+            <p></p>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+    <div id="pie">
+        <p>Sitio web construido por Garthur WebMaster — 2023</p>
+    </div>
+
+</body>
